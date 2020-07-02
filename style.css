@@ -1,0 +1,321 @@
+*{
+	padding:0;
+	margin:0;
+}
+.name-head{
+	color: white;
+	
+	 text-shadow: 2px 2px 5px red;
+
+}
+.name-head h1{
+	font-family: 'Bitter', serif;
+    left:50PX;
+    color:#ffffff;
+    background-color: #000;
+}
+nav{
+  text-align:center;
+  background-color:#800040;
+  
+}
+
+.menu ul li {
+    height: 30px;
+   font-size: 20px;
+    display: inline-block;
+    line-height: -20px;
+    margin:5px;
+}
+.menu li a{
+	text-decoration: none;
+    color:#ffffff; 
+    display: block;
+}
+.menu li a:hover{
+	color:#000 ;
+}
+..menu ul li ul li{
+	display: none;
+}
+.pic-loginbox{
+	background-image: url("https://www.desktopbackground.org/p/2010/08/14/63896_download-wallpapers-1920x1080-light-umbrella-dark-full-hd-1080p_1920x1080_h.jpg");
+	width:1580px;
+	height:720px;
+	background-size: cover;
+
+}
+.loginbox{
+	width: 320px;
+	height: 420px;
+    background: #000000;
+    color:#ffffff;
+    top: 60%;
+    left:25%;
+    position: absolute;
+    box-sizing: border-box;
+    transform: translate(-50%,-50%);
+    padding: 70px 50px;
+
+
+}
+.piclog{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	top: -50px;
+	left: 100px;
+	position: absolute;
+	padding: 5px;
+	text-align: center;
+
+}
+.logtext{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 25px;
+	color:	#800040;
+}
+
+.loginbox p{
+	font-family: 'Bitter', serif;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color:#ffffff;
+}
+.loginbox input{
+	width: 200px;
+	margin-bottom: 20px;
+}
+.loginbox input[type="username"],input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #000;
+	outline: none;
+	background: transparent;
+	height: 40px;
+	color: #ffffff;
+	font-size: 16px;
+}
+.loginbox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #ffffff;
+	background: #990033;
+	font-size: 20px;
+	border-radius: 20px;
+}
+ .loginbox input[type="submit"]:hover{
+ 	cursor: pointer;
+ 	background:#ff0080;
+ 	color:#ffffff;
+ }
+ .loginbox a{
+ 	text-decoration: none;
+ 	font-size: 18px;
+ 	line-height: 15px;
+ 	color: #ffffff;
+ 	text-align: center;
+
+ }
+ .loginbox a:hover{
+ 	color:#ff0080;
+ }
+ .galery p{
+ 	text-align: center;
+
+ 	font-size: 40px;
+ 	color: #990033;
+ 	padding: 6px;
+ 	text-shadow: 4px;
+ }
+ .galery{
+ 	padding: 0;
+ 	margin: 0;
+ }
+ .slider{
+ 	float: left;
+ 	display: block;
+ 	width: 20%;
+ 	overflow: hidden;
+ 	text-align: center;
+	background-color: #000;
+
+}
+
+.slider img{
+	width: 100%;
+	border-radius:10px;
+	padding: 20px;
+	
+	filter: brightness(.7);
+}
+.slider img:hover{
+	transform: scale(1.5);
+	filter: brightness(.9);
+	transition: 2s transform ;
+}
+.pp1 p{
+	width: 500px;
+	margin: 60px 50px 75px 50px;
+	padding: 25px;
+	float: right;
+	text-align: center;
+	font-size: 24px;
+	
+	color:#000000;
+
+	
+
+}
+.pp11 img{
+	width: 500px;
+	height: 260px;
+	top: 90px;
+	padding: 15px;
+	margin: 25px 50px 75px 100px;
+	border-radius: 50px;
+
+}
+.pp11 img:hover{
+	transform: scale(1.1);
+}
+
+.pp2 p{
+	width: 500px;
+	margin: 50px 50px 35px 30px;
+	padding: 25px;
+	float: left;
+	text-align: center;
+	font-size: 24px;
+	
+	color:#000000;
+}
+.pp12 img{
+	width: 500px;
+	float: right;
+	padding: 25px;
+	border-radius: 50px;
+	margin: 20px 50px 11px 10px;
+
+}
+.pp12 img:hover{
+	transform: scale(1.1);
+}
+.endpage{
+	padding: 55px;
+	margin: 20px;
+}
+
+.dowon1{
+	 width: 250px;
+	height: 170px;
+	background-color:#80002a;
+	margin-left: 150px;
+	float: left;
+	font-size: 18px;
+	text-align:center; 
+	border-radius:50px ;
+}
+
+.box1{
+	height: 30px;
+	width: 90px;
+	background-color:#000;
+	margin-left: 75px;
+	border-radius: 20px;
+	color:#ffffff;
+	font-size: 13px solid;
+	text-align:center; 
+	padding: 5px;
+	text-decoration: none; 
+}
+.dowon2{
+
+    width: 250px;
+	height: 170px;
+	background-color:#80002a;
+	margin-left: 150px;
+	float: left;
+	font-size: 18px;
+	text-align:center; 
+	border-radius:50px ;
+}
+.box2{
+    height: 30px;
+	width: 90px;
+	background-color:#000;
+	margin-left: 75px;
+	border-radius: 20px;
+	color:#ffffff;
+	font-size: 13px solid;
+	text-align:center; 
+	padding: 5px;
+}
+
+.dowon3{
+    width: 250px;
+	height: 170px;
+	background-color:#80002a;
+	margin-left: 150px;
+	float: left;
+	font-size: 18px;
+	text-align:center; 
+	border-radius:50px ;
+}
+.dowon1 p{
+	color: #ffffff;
+	font-size: 17px;
+	padding: 6px;
+	margin: 5px;
+
+}
+.dowon2 p{
+	color: #ffffff;
+	font-size: 17px;
+padding: 6px;
+	margin: 5px;
+}
+.dowon3 p{
+	color: #ffffff;
+	font-size: 17px;
+padding: 6px;
+	margin: 5px;
+}
+.box3{
+   height: 30px;
+	width: 90px;
+	background-color:#000;
+	padding: 5px;
+	margin-left: 75px;
+	border-radius: 20px;
+	color:#ffffff;
+	font-size: 13px solid;
+	text-align:center; 
+} 
+.dowon1 img{
+	border-radius: 50px;
+	}
+.dowon2 img{
+	border-radius: 50px;
+	
+}
+.dowon3 img{
+	border-radius: 50px;
+}
+.dowon4{
+    width: 30px;
+     height: 100px;
+      float: right;
+      top: 33px;
+      padding: 10px;
+      margin: 10px;
+       transition: width 2s, height 4s;
+}
+.dowon4 img:hover{
+    transform: scale(1.7);
+	
+	transition: 1s transform ;
+}
